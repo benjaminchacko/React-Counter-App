@@ -1,12 +1,5 @@
-import React, {useState, useEffect, useRef, Fragment} from 'react';
-
-function usePrevious(value) {
-  const ref = useRef();
-  useEffect(() => {
-    ref.current = value;
-  });
-  return ref.current;
-}
+import {useState, Fragment} from 'react';
+import usePrevious from './utils/usePrevious';
 
 const App = () => {
   const [EScount, setESCount] = useState(0);
