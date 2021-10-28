@@ -7,7 +7,7 @@ const App = () => {
   const [WScount, setWSCount] = useState(0);
   const [WMScount, setWMSCount] = useState(0);
 
-  const addOneES = () => setESCount(EScount + 1);
+  const addOneEW = () => setESCount(EScount + 1);
   const addOneWS = () => setWSCount(WScount + 1);
 
   const handleEMSChange = (e) => {
